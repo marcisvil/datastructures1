@@ -7,6 +7,12 @@ public class ArrayChange {
     String o;
     String p;
 
+    public ArrayChange(String c, String o, String p) {
+        this.c = c;
+        this.o = o;
+        this.p = p;
+    }
+
     public String getA() {
         return a;
     }
