@@ -11,6 +11,14 @@ public class ArrayChange {
         this.a = a;
     }
 
+    public ArrayChange(String a, String b, String c, String o, String p) {
+        this.a = a;
+        this.b = b;
+        this.c = c;
+        this.o = o;
+        this.p = p;
+    }
+
     public String getA() {
         return a;
     }
